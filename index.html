@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Médias com Arrow Functions</title>
+  </head>
+  <body>
+    <header>
+      <img src="./images/icon1.png" alt="" />
+      <div>
+        <h2>Aluno: Mário Cesar Cunha Fialho</h2>
+        <h3>Matrícula: 20222tsi0253</h3>
+      </div>
+    </header>
+    <main>
+      <div class="inputs">
+        <h2>
+          Informe abaixo as notas do aluno e o tipo de média para receber o
+          resultado:
+        </h2>
+        <div>
+          <label>Primeiro número:</label>
+          <input type="number" id="input1" />
+        </div>
+        <div>
+          <label>Segundo número:</label>
+          <input type="number" id="input2" />
+        </div>
+        <div>
+          <label>Terceiro número:</label>
+          <input type="number" id="input3" />
+        </div>
+        <label>Tipo de média (Aritmética, Ponderada ou Harmônica):</label>
+        <input type="text" id="inputLetter" placeholder="Letras A, P ou H" />
+      </div>
+      <div class="results">
+        <h2>Calcular médias</h2>
+        <div>
+          <button id="calculateAverage" onclick="calculateAverage()">
+            Calcule a média escolhida
+          </button>
+          <h3 id="result"></h3>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Desenvolvido por
+        <a href="https://github.com/MarioCesarCF" target="_blank"
+          >@MárioCesarDev</a
+        >
+      </p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
